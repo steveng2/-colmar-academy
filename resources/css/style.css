@@ -8,6 +8,7 @@ main {
 
 
 }
+
 .section-one {
   display: flex;
   width: 100%;
@@ -82,23 +83,35 @@ display: flex;
 }
 /* video conatiner */
 #video-container {
- position: absolute;
+
+  width: 60%;
+  display: flex;
+  /*display: flex;*/
+  /*margin-top: 6px;*/
+ /*position: absolute;
   top: 1500px;
-  left: 930px;
+  left: 930px;*/
 }
+/*.video-text {
+width: 60%;
+}*/
 .video-aside {
- display: flex;
+ /*display: flex;*/
+ width: 40%;
+}
+.video-text-holder {
+  display: flex;
+}
+.single-text  {
+  background-color: gray;
 }
 
-.video-aside-imgage-holder{
- display: flex;
+footer {
+  display: flex;
 }
-.text-urban {
-  width: 60%;
-  position: absolute;
-  left: 32px;
-  top: 1330px;
-}
+
+
+
 .mobile {
   display: none;
 }
