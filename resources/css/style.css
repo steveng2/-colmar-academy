@@ -12,6 +12,8 @@ main {
 .section-one {
   display: flex;
   width: 100%;
+  background-color: #007ea7;
+  padding: 32px 24px 32px 24px;
   /*height: auto;*/
 }
 .section-one-img {
@@ -28,18 +30,25 @@ main {
 
 .section-two {
   display: flex;
+  background-color: #ccdbdc;
+  padding: 32px 24px;
+
   /*width: 60%;
   height: 40%;*/
 }
 
 .text-holder-side {
-  width: 60%;
+  /*width: 60%;*/
+
   width: 200px;
-  background-color: black;
+  border-bottom: 1px solid blue;
+  border-left: 1px solid blue;
+  /*background-color: black;*/
 }
 .imgholder {
   display: flex;
   width: 90%;
+  margin-left: 5px;
 }
 
 h1 {
@@ -58,10 +67,12 @@ h2 {
   width: 90%;
   height: auto;
 }
-#start-learning {
-width: 100%;
-display: flex;
-
+.title-start {
+  display: flex; /*Start learning hack display the title correctly*/
+}
+#start-learning  {
+  width: 100%;
+  display: flex;
 }
 .section-three-card-one {
   display: flex;
@@ -81,20 +92,19 @@ display: flex;
   width: 90%;
   height: auto;
 }
+.resize-video-img  {
+  width: 35%;
+}
 /* video conatiner */
 #video-container {
-
-  width: 60%;
+  /*width: 60%;*/
   display: flex;
-  /*display: flex;*/
   /*margin-top: 6px;*/
- /*position: absolute;
-  top: 1500px;
-  left: 930px;*/
+
 }
-/*.video-text {
+.video-text {
 width: 60%;
-}*/
+}
 .video-aside {
  /*display: flex;*/
  width: 40%;
@@ -103,14 +113,13 @@ width: 60%;
   display: flex;
 }
 .single-text  {
+  width: 65%;
   background-color: gray;
 }
 
 footer {
   display: flex;
 }
-
-
 
 .mobile {
   display: none;
