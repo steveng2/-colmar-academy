@@ -1,134 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Rufina');
 html {
-  /*font-size:  16rem;*/
+  font-size: 18px;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: #CCDBDC;
+}
+
+.rufina {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+}
+
+.oxygen {
+  font-family: "Oxygen", sans-serif;
 }
 header {
-  display: flex;
+	display: flex;
 }
 main {
 
-
 }
-
-.section-one {
-  display: flex;
-  width: 100%;
-  background-color: #007ea7;
-  padding: 32px 24px 32px 24px;
-  /*height: auto;*/
+#section-one {
+	display: flex;
+	width: 100%;
+	background-color: #007ea7;
+	padding: 32px 24px 32px 24px;
+	background-color: #007ea7;
+	/*height: auto;*/
 }
-.section-one-img {
-  width: 60%;
+#section-one h1 {
+    font-family: "Rufina", serif;
+    font-size: 2rem;
+    line-height: 1.8rem;
+	}
+#section-one-img {
+	width: 60%;
 }
-.section-one-img img {
-  width: 100%;
+#section-one-img img {
+	width: 100%;
 }
-.text-holder{
-  /*display: block;*/
-  width: 40%;
-  /*flex-direction: column;*/
+.text-holder {
+	/*display: block;*/
+	width: 40%;
+	/*flex-direction: column;*/
 }
-
-.section-two {
-  display: flex;
-  background-color: #ccdbdc;
-  padding: 32px 24px;
-
-  /*width: 60%;
+#section-two {
+	display: flex;
+	background-color: #ccdbdc;
+	padding: 32px 24px;
+	/*width: 60%;
   height: 40%;*/
 }
-
 .text-holder-side {
-  /*width: 60%;*/
-
-  width: 200px;
-  border-bottom: 1px solid blue;
-  border-left: 1px solid blue;
-  /*background-color: black;*/
+	/*width: 60%;*/
+	width: 200px;
+	border-bottom: 1px solid blue;
+	border-left: 1px solid blue;
+	/*background-color: black;*/
 }
 .imgholder {
-  display: flex;
-  width: 90%;
-  margin-left: 5px;
+	display: flex;
+	width: 90%;
+	margin-left: 5px;
 }
-
 h1 {
-  font-size:  18px;
+	font-size: 18px;
 }
 h2 {
-  font-size: 16px;
-  color: gray;
+	font-size: 16px;
+	color: gray;
 }
-
 .rightside {
- /*display: inline;*/
- width: 60%;
+	/*display: inline;*/
+	width: 60%;
 }
-.resize-man{
-  width: 90%;
-  height: auto;
+.resize-man {
+	width: 90%;
+	height: auto;
 }
 .title-start {
-  display: flex; /*Start learning hack display the title correctly*/
+	display: flex;
+	/*Start learning hack display the title correctly*/
 }
-#start-learning  {
-  width: 100%;
-  display: flex;
+#start-learning {
+	width: 100%;
+	display: flex;
+	margin-left:  72px;
 }
+#start-learning h2 {
+    font-family: "Rufina", serif;
+    font-size: 1.5rem;
+    margin: 16px 0;
+	}
+
+	#start-learning h3 {
+	    font-family: "Oxygen", sans-serif;
+	    font-size: 1rem;
+	    margin: 8px 0;
+			font-weight: bold;
+	}
+
 .section-three-card-one {
-  display: flex;
+	display: flex;
 }
-#start-learning-two  {
-  width: 100%;
-  display: flex;
+#start-learning-two {
+	width: 100%;
+	display: flex;
+	margin-left: 72px;
+}
+
+#start-learning-two h2 {
+    font-family: "Rufina", serif;
+    font-size: 1.5rem;
+    margin: 16px 0;
+	}
+	#start-learning-two h3 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 1rem;
+    margin: 8px 0;
+		font-weight: bold;
 }
 .section-three-card-one-column-one {
-  display: flex;
+	display: flex;
 }
 .imgholder-cards {
-  width: 90%;
-  height: auto;
+	width: 90%;
+	height: auto;
+}
+.imgholder-cards h2, h3, p {
+	height: auto;
+	padding-top: 8px;
 }
 .resize-gallary-img {
-  width: 90%;
-  height: auto;
+	width: 90%;
+	height: auto;
 }
-.resize-video-img  {
-  width: 35%;
+.resize-video-img {
+	width: 35%;
+	height: 60%;
+}
+.resize-img {
+	height: 100%;
+	width: 35%;
 }
 /* video conatiner */
-#video-container {
-  /*width: 60%;*/
-  display: flex;
-  /*margin-top: 6px;*/
 
+#video-container {
+	/*width: 60%;*/
+	display: flex;
+	/*margin-top: 6px;*/
 }
 .video-text {
-width: 60%;
+	width: 60%;
 }
 .video-aside {
- /*display: flex;*/
- width: 40%;
+	/*display: flex;*/
+	width: 40%;
 }
 .video-text-holder {
-  display: flex;
+	display: flex;
 }
-.single-text  {
-  width: 65%;
-  background-color: gray;
+.single-text, h3, h4, {
+	width: 65%;
+	padding-top: 8px;
+	margin-top: 6px;
+	min-height: 168px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	/*background-color: #e5d7cc;*/
+}
+.single-text-style h3 h4 {
+	/*width: 65%;*/
+	background-color: #e5d7cc;
+	min-height: 168px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
 }
 
 footer {
-  display: flex;
+	display: flex;
 }
-
 .mobile {
-  display: none;
+	display: none;
 }
 @media only screen and (max-width: 500px) {
-  .mobile {
-    display: block;
-  }
-  .desktop {
-    display: none;
-  }
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
 }
