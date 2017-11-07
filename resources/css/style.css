@@ -19,8 +19,16 @@ body {
 header {
 	display: flex;
 }
-main {
 
+nav a .desktop {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+nav a:hover {
+  background-color: #007ea7;
+}
+main {
 }
 #section-one {
 	display: flex;
@@ -55,15 +63,21 @@ main {
 }
 .text-holder-side {
 	/*width: 60%;*/
+  margin-left: 24px;
 	width: 200px;
-	border-bottom: 1px solid blue;
 	border-left: 1px solid blue;
-	/*background-color: black;*/
+}
+.text-holder-side h2 p {
+	/*width: 60%;*/
+  font-family: "Oxygen", sans-serif;
+  font-size: 0.6rem;
+  margin: 8px 0;
 }
 .imgholder {
 	display: flex;
 	width: 90%;
 	margin-left: 5px;
+  margin: 8px 0;
 }
 h1 {
 	font-size: 18px;
@@ -96,10 +110,10 @@ h2 {
 	}
 
 	#start-learning h3 {
-	    font-family: "Oxygen", sans-serif;
-	    font-size: 1rem;
-	    margin: 8px 0;
-			font-weight: bold;
+	  font-family: "Oxygen", sans-serif;
+    font-size: 1rem;
+    margin: 8px 0;
+	  font-weight: bold;
 	}
 
 .section-three-card-one {
@@ -110,7 +124,12 @@ h2 {
 	display: flex;
 	margin-left: 72px;
 }
-
+#start-learning-title h3{
+  font-family: "Rufina", serif;
+  font-size: 2rem;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
 #start-learning-two h2 {
     font-family: "Rufina", serif;
     font-size: 1.5rem;
@@ -162,7 +181,11 @@ h2 {
 .video-text-holder {
 	display: flex;
 }
-.single-text, h3, h4, {
+video {
+  width: 100%;
+  height: auto;
+}
+.single-text, h3 h4, {
 	width: 65%;
 	padding-top: 8px;
 	margin-top: 6px;
@@ -180,10 +203,48 @@ h2 {
 	align-items: center;
 	font-weight: bold;
 }
-
+#thesis h3 {
+  font-family: "Rufina", serif;
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
 footer {
 	display: flex;
 }
+footer {
+  background-color: #007EA7;
+  color: #003249;
+  padding: 0 24px;
+  border-top: 2px solid #003249;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy {
+  display: block;
+  padding: 16px 0;
+}
+
+.links {
+}
+
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+/*
+#003249
+#007EA7
+#80CED7
+#9AD1D4
+#CCDBDC
+*/
 .mobile {
 	display: none;
 }
@@ -194,4 +255,38 @@ footer {
 	.desktop {
 		display: none;
 	}
+  header {
+    height: 64px;
+  }
+   a .desktop  {
+    display: none;
+  }
+  .desktop a:hover {
+    display: none;
+  }
+  #start-learning img, p, h3 {
+    display: none;
+  }
+  #start-learning {
+    display: block;
+  }
+  #start-learning-two img, p, h3{
+    display: none;
+  }
+  #start-learning-two {
+    display: block;
+  }
+#video-container .rightside {
+  display: block;
+}
+#thesis h3{
+  display: block;
+}
+.video-aside {
+  display: none;
+}
+video {
+  width: 100%;
+}
+  }
 }
