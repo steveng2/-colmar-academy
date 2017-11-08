@@ -1,35 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen|Rufina');
 html {
-  font-size: 18px;
+	font-size: 18px;
 }
-
 body {
-  font-family: "Oxygen", sans-serif;
-  background-color: #CCDBDC;
+	font-family: "Oxygen", sans-serif;
+	background-color: #CCDBDC;
 }
-
 .rufina {
-  font-family: "Rufina", serif;
-  font-size: 1.5rem;
+	font-family: "Rufina", serif;
+	font-size: 1.5rem;
 }
-
 .oxygen {
-  font-family: "Oxygen", sans-serif;
+	font-family: "Oxygen", sans-serif;
 }
 header {
 	display: flex;
 }
-
 nav a .desktop {
-  display: flex;
-  justify-content: flex-end;
-  align-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-end;
 }
 nav a:hover {
-  background-color: #007ea7;
+	background-color: #007ea7;
 }
-main {
-}
+main {}
 #section-one {
 	display: flex;
 	width: 100%;
@@ -39,15 +34,17 @@ main {
 	/*height: auto;*/
 }
 #section-one h1 {
-    font-family: "Rufina", serif;
-    font-size: 2rem;
-    line-height: 1.8rem;
-	}
-#section-one-img {
+	font-family: "Rufina", serif;
+	font-size: 2rem;
+	line-height: 1.8rem;
+}
+
+.section-one-img {
 	width: 60%;
 }
-#section-one-img img {
-	width: 100%;
+.section-one-img img {
+  display: block;
+  width: 100%;
 }
 .text-holder {
 	/*display: block;*/
@@ -61,23 +58,32 @@ main {
 	/*width: 60%;
   height: 40%;*/
 }
+.imgholder img {
+  width: 100%;
+}
+/*#section-two img {
+	display: flex;
+	background-color: #ccdbdc;
+	padding: 32px 24px;
+	width: 100%;
+}*/
 .text-holder-side {
 	/*width: 60%;*/
-  margin-left: 24px;
+	margin-left: 24px;
 	width: 200px;
 	border-left: 1px solid blue;
 }
 .text-holder-side h2 p {
 	/*width: 60%;*/
-  font-family: "Oxygen", sans-serif;
-  font-size: 0.6rem;
-  margin: 8px 0;
+	font-family: "Oxygen", sans-serif;
+	font-size: 0.6rem;
+	margin: 8px 0;
 }
 .imgholder {
 	display: flex;
 	width: 90%;
 	margin-left: 5px;
-  margin: 8px 0;
+	margin: 8px 0;
 }
 h1 {
 	font-size: 18px;
@@ -101,21 +107,19 @@ h2 {
 #start-learning {
 	width: 100%;
 	display: flex;
-	margin-left:  72px;
+	margin-left: 72px;
 }
 #start-learning h2 {
-    font-family: "Rufina", serif;
-    font-size: 1.5rem;
-    margin: 16px 0;
-	}
-
-	#start-learning h3 {
-	  font-family: "Oxygen", sans-serif;
-    font-size: 1rem;
-    margin: 8px 0;
-	  font-weight: bold;
-	}
-
+	font-family: "Rufina", serif;
+	font-size: 1.5rem;
+	margin: 16px 0;
+}
+#start-learning h3 {
+	font-family: "Oxygen", sans-serif;
+	font-size: 1rem;
+	margin: 8px 0;
+	font-weight: bold;
+}
 .section-three-card-one {
 	display: flex;
 }
@@ -124,22 +128,22 @@ h2 {
 	display: flex;
 	margin-left: 72px;
 }
-#start-learning-title h3{
-  font-family: "Rufina", serif;
-  font-size: 2rem;
-  padding: 32px 0 16px 0;
-  text-align: center;
+#start-learning-title h3 {
+	font-family: "Rufina", serif;
+	font-size: 2rem;
+	padding: 32px 0 16px 0;
+	text-align: center;
 }
 #start-learning-two h2 {
-    font-family: "Rufina", serif;
-    font-size: 1.5rem;
-    margin: 16px 0;
-	}
-	#start-learning-two h3 {
-    font-family: "Oxygen", sans-serif;
-    font-size: 1rem;
-    margin: 8px 0;
-		font-weight: bold;
+	font-family: "Rufina", serif;
+	font-size: 1.5rem;
+	margin: 16px 0;
+}
+#start-learning-two h3 {
+	font-family: "Oxygen", sans-serif;
+	font-size: 1rem;
+	margin: 8px 0;
+	font-weight: bold;
 }
 .section-three-card-one-column-one {
 	display: flex;
@@ -182,8 +186,8 @@ h2 {
 	display: flex;
 }
 video {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 .single-text, h3 h4, {
 	width: 65%;
@@ -204,39 +208,34 @@ video {
 	font-weight: bold;
 }
 #thesis h3 {
-  font-family: "Rufina", serif;
-  font-size: 2rem;
-  padding: 32px 0;
-  text-align: center;
+	font-family: "Rufina", serif;
+	font-size: 2rem;
+	padding: 32px 0;
+	text-align: center;
 }
 footer {
 	display: flex;
 }
 footer {
-  background-color: #007EA7;
-  color: #003249;
-  padding: 0 24px;
-  border-top: 2px solid #003249;
-  display: flex;
-  justify-content: space-between;
+	background-color: #007EA7;
+	color: #003249;
+	padding: 0 24px;
+	border-top: 2px solid #003249;
+	display: flex;
+	justify-content: space-between;
 }
-
 .copy {
-  display: block;
-  padding: 16px 0;
+	display: block;
+	padding: 16px 0;
 }
-
-.links {
-}
-
+.links {}
 footer a {
-  display: inline-block;
-  margin: 16px 0 0 16px;
-  text-decoration: underline;
+	display: inline-block;
+	margin: 16px 0 0 16px;
+	text-decoration: underline;
 }
-
 footer a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 /*
 #003249
@@ -245,48 +244,83 @@ footer a:hover {
 #9AD1D4
 #CCDBDC
 */
+
 .mobile {
 	display: none;
 }
 @media only screen and (max-width: 500px) {
+	body {
+		width: 100%;
+	}
 	.mobile {
 		display: block;
 	}
 	.desktop {
 		display: none;
 	}
-  header {
-    height: 64px;
-  }
-   a .desktop  {
-    display: none;
-  }
-  .desktop a:hover {
-    display: none;
-  }
-  #start-learning img, p, h3 {
-    display: none;
-  }
-  #start-learning {
+	header {
+		height: 64px;
+	}
+	a .desktop {
+		display: none;
+	}
+	.desktop a:hover {
+		display: none;
+	}
+	#start-learning img, p, h3 {
     display: block;
+    width: 100%;
+	}
+	#start-learning {
+		display: block;
+	}
+	#start-learning-two img, p, h3, .section-two-img-mob {
+		display: none;
+	}
+	#section-one {
+		display: block;
+	}
+  #section-one h1, p,  {
+    padding: 32px 16px;
+    font-size: 1.4rem;
   }
-  #start-learning-two img, p, h3{
+  #section-two .section-one-img {
     display: none;
   }
-  #start-learning-two {
-    display: block;
+	#section-two .section-two-img-mob {
+		display: none;
+	}
+  #section-two {
+    width: 100%;
   }
-#video-container .rightside {
-  display: block;
-}
-#thesis h3{
-  display: block;
-}
-.video-aside {
-  display: none;
-}
-video {
-  width: 100%;
-}
+	#start-learning-two {
+		display: block;
+	}
+	.imgholder {
+		display: block;
+    width: 100%;
+	}
+  .rightside {
+    width: 100%;
   }
+  img.mobile {
+  width:  100%;
+  }
+
+	#section-one-img {
+		display: none;
+	}
+	#video-container .rightside {
+		display: block;
+	}
+	#thesis h3 {
+		display: block;
+	}
+	.video-aside {
+		display: none;
+	}
+	video {
+		width: 100%;
+	}
+}
 }
