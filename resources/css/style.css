@@ -53,6 +53,7 @@ main {}
 }
 #section-two {
 	display: flex;
+	justify-content: space-between;
 	background-color: #ccdbdc;
 	padding: 32px 24px;
 	/*width: 60%;
@@ -81,7 +82,7 @@ main {}
 }
 .imgholder {
 	display: flex;
-	width: 90%;
+	width: 35%;
 	margin-left: 5px;
 	margin: 8px 0;
 }
@@ -94,7 +95,7 @@ h2 {
 }
 .rightside {
 	/*display: inline;*/
-	width: 60%;
+	width: 35%;
 }
 .resize-man {
 	width: 90%;
