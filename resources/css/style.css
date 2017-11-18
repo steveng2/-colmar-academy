@@ -68,7 +68,7 @@ main {}
 	padding: 32px 24px;
 	width: 100%;
 }*/
-.text-holder-side {
+.text-holder-side  {
 	/*width: 60%;*/
 	margin-left: 24px;
 	width: 200px;
@@ -79,6 +79,7 @@ main {}
 	font-family: "Oxygen", sans-serif;
 	font-size: 0.6rem;
 	margin: 8px 0;
+
 }
 .imgholder {
 	display: flex;
@@ -290,6 +291,8 @@ footer a:hover {
   }
   #section-two .section-one-img {
     display: none;
+
+
   }
 	#section-two .section-two-img-mob {
 		display: none;
@@ -304,9 +307,9 @@ footer a:hover {
 		display: block;
     width: 100%;
 	}
-  .rightside {
+  /*.rightside {
     width: 100%;
-  }
+  }*/
   img.mobile {
   width:  100%;
   }
