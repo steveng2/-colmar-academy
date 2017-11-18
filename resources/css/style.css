@@ -81,6 +81,9 @@ main {}
 	margin: 8px 0;
 
 }
+.media-box {
+	display: flex;
+}
 .imgholder {
 	display: flex;
 	width: 35%;
@@ -272,6 +275,7 @@ footer a:hover {
 	.desktop a:hover {
 		display: none;
 	}
+
 	#start-learning img, p, h3 {
     display: block;
     width: 100%;
@@ -296,6 +300,11 @@ footer a:hover {
   }
 	#section-two .section-two-img-mob {
 		display: none;
+	}
+	.media-box {
+		display: block;
+		width: 100%;
+		height: auto;
 	}
   #section-two {
     width: 100%;
