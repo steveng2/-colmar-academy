@@ -15,6 +15,7 @@ body {
 }
 header {
 	display: flex;
+	justify-content: space-between;
 }
 nav a .desktop {
 	display: flex;
@@ -41,6 +42,7 @@ main {}
 
 .section-one-img {
 	width: 60%;
+  padding-right: 1rem;
 }
 .section-one-img img {
   display: block;
@@ -72,7 +74,7 @@ main {}
 	/*width: 60%;*/
 	margin-left: 24px;
 	width: 200px;
-	border-left: 1px solid blue;
+	/*border-left: 1px solid blue;*/
 }
 .text-holder-side h2 p {
 	/*width: 60%;*/
@@ -83,12 +85,13 @@ main {}
 }
 .media-box {
 	display: flex;
+	margin-bottom: 8px;
 }
+
 .imgholder {
 	display: flex;
 	width: 35%;
 	margin-left: 5px;
-	margin: 8px 0;
 }
 h1 {
 	font-size: 18px;
@@ -260,8 +263,11 @@ footer a:hover {
 	body {
 		width: 100%;
 	}
+
 	.mobile {
-		display: block;
+		display: flex;
+		justify-content:  space-around;
+		width: 100%;
 	}
 	.desktop {
 		display: none;
@@ -277,11 +283,12 @@ footer a:hover {
 	}
 
 	#start-learning img, p, h3 {
-    display: block;
+    display: none;
     width: 100%;
 	}
 	#start-learning {
 		display: block;
+		margin: 0;
 	}
 	#start-learning-two img, p, h3, .section-two-img-mob {
 		display: none;
@@ -289,14 +296,13 @@ footer a:hover {
 	#section-one {
 		display: block;
 	}
+
   #section-one h1, p,  {
     padding: 32px 16px;
     font-size: 1.4rem;
   }
   #section-two .section-one-img {
     display: none;
-
-
   }
 	#section-two .section-two-img-mob {
 		display: none;
@@ -311,6 +317,7 @@ footer a:hover {
   }
 	#start-learning-two {
 		display: block;
+		margin: 0;
 	}
 	.imgholder {
 		display: block;
