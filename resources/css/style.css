@@ -13,6 +13,28 @@ body {
 .oxygen {
 	font-family: "Oxygen", sans-serif;
 }
+.text-holder .button button {
+	margin-top: 4px;
+  border: none;
+  color: gray;
+	text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button {
+	margin-top: 15px;
+	font-family: "Oxygen", sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	width: 300px;
+}
+.text-holder h1 p {
+	padding: 4px;
+	margin: 3px;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -192,6 +214,8 @@ h2 {
 }
 .video-text-holder {
 	display: flex;
+	margin-left: 15px;
+
 }
 video {
 	width: 100%;
