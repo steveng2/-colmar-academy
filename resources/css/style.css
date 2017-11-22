@@ -22,6 +22,7 @@ body {
   display: inline-block;
   font-size: 16px;
 }
+/*buttion effects */
 .button {
 	margin-top: 15px;
 	font-family: "Oxygen", sans-serif;
@@ -29,6 +30,9 @@ body {
 	text-align: center;
 	text-decoration: none;
 	width: 300px;
+}
+.media-box:hover {
+	background-color: lightgray;
 }
 .text-holder h1 p {
 	padding: 4px;
@@ -175,6 +179,7 @@ h2 {
 	margin: 8px 0;
 	font-weight: bold;
 }
+
 .section-three-card-one-column-one {
 	display: flex;
 }
@@ -331,6 +336,11 @@ footer a:hover {
 	#section-two .section-two-img-mob {
 		display: none;
 	}
+	.imgholder-cards {
+			background: lightgray;
+			margin-left: 5px;
+			text-align: left;
+		}
 	.media-box {
 		display: block;
 		width: 100%;
@@ -347,18 +357,20 @@ footer a:hover {
 		display: block;
     width: 100%;
 	}
+
   /*.rightside {
     width: 100%;
   }*/
   img.mobile {
   width:  100%;
-  }
 
+  }
 	#section-one-img {
 		display: none;
 	}
 	#video-container .rightside {
 		display: block;
+
 	}
 	#thesis h3 {
 		display: block;
@@ -368,6 +380,7 @@ footer a:hover {
 	}
 	video {
 		width: 100%;
+		margin-left: 75px;
 	}
 }
 }
