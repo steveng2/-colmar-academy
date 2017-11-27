@@ -107,6 +107,10 @@ button:hover {
   background-color: #80CED7;
   color: #003249;
 }
+.campus-info-single .red:hover {
+  background-color: red;
+}
+
 
 .holder-img-header {
   width: 60%;
@@ -117,7 +121,16 @@ button:hover {
   width: 100%;
   height: auto;
 }
+.red:hover {
+  background-color: red;
+}
 
+
+.campus-info-single .red:hover{
+    display: flex;
+    min-height: 168px;
+    border-bottom: 1px solid #21686d;
+}
 .holder-learn {
   display: flex;
   flex-flow: wrap column;
@@ -248,7 +261,12 @@ button:hover {
   margin: 16px;
   padding-bottom: 24px;
 }
-
+.holder-course:hover {
+  background-color: #CCCDBC;
+  width: 30%;   
+  margin: 16px;
+  padding-bottom: 24px;
+}
 .holder-course-txt {
   padding: 16px 16px;
 }
@@ -314,6 +332,12 @@ video {
   min-height: 168px;
   display: flex;
   align-items: center;
+}
+.thesis-info-single:hover {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+  background-color: #CCCDBC;
 }
 
 .holder-thesis-img {
